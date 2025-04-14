@@ -84,8 +84,8 @@ public class IngresarAnimales extends javax.swing.JDialog {
             jLabel5.setVisible(true);
             campoValorfijo.setVisible(true);
         } else {
-            jLabel5.setVisible(true);
-            campoValorfijo.setVisible(true);
+            jLabel5.setVisible(false);
+            campoValorfijo.setVisible(false);
         }
     }
 

@@ -40,11 +40,11 @@ public class Persistencia {
 
     
     private static void inicializarPaises(){
-        paises.add(new Pais("Madagascar"));
-        paises.add(new Pais("Rusia"));
-        paises.add(new Pais("India"));
-        paises.add(new Pais("Brasil"));
-        paises.add(new Pais("Australia"));
+        paises.add(new Pais("Madagascar","MG"));
+        paises.add(new Pais("Rusia","RU"));
+        paises.add(new Pais("India","IN"));
+        paises.add(new Pais("Brasil","BR"));
+        paises.add(new Pais("Australia","AU"));
     }
 
     public static void inicializar() throws InvalidPropertiesFormatException{

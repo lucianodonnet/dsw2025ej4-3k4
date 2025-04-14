@@ -20,7 +20,12 @@ public class Pais {
     public String getNombre() {
         return nombre;
     }
+
+    public String getISO() {
+        return ISO;
+    }
    
+    
     
     
 }
