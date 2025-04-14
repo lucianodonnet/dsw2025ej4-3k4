@@ -54,7 +54,6 @@ public class AnimalViewModel {
     }
 
     public static void AnimalInputModel(String edad, String peso, String especie, String sector, String valorfijo, String pais) throws InvalidPropertiesFormatException {
-        // Parseo de valores
         int edadInt;
         double pesoDouble;
         double valorFijoDouble;
