@@ -63,9 +63,9 @@ public class AnimalViewModel {
         valorFijoDouble = Double.parseDouble(valorfijo);
         Especie especieSeleccionada = Controlador.getEspecie(especie);
         Sector sectorSeleccionado = buscarSectorDesdeTexto(sector, Controlador.getSectores());
-        Pais paisSeleccionado = Controlador.getPais(pais); // asumimos método así
+        Pais paisSeleccionado = Controlador.getPais(pais); 
 
-// Crear el animal según tipo de alimentación
+
         if (especieSeleccionada.getTipoAlimentacion().equals(TipoAlimentacion.HERBIVORO)) {
             Herbivoro h = new Herbivoro(
                     edadInt,
