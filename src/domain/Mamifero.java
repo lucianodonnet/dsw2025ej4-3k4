@@ -8,6 +8,7 @@ public abstract class Mamifero {
     protected Especie especie;
     protected Sector sector;
     protected TipoAlimentacion tipoAlimentacion;
+    protected Pais pais;
 
 
     protected Mamifero(TipoAlimentacion tipoAlimentacion,
